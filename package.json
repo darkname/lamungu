@@ -1,0 +1,13 @@
+{
+  "name": "Lamungu",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lamungu",
+  "license": "All Rights Reserved",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "laravel-elixir": "^4.0",
+  },
+  "scripts": {
+  }
+}
