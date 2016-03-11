@@ -1,0 +1,35 @@
+{
+  "name": "lamungu",
+  "homepage": "https://github.com/lamungu/lamungu",
+  "authors": [
+    "Benjamin Lofo Follo <benjamin.lofofollo@hotmail.com>"
+  ],
+  "description": "Benjamin Lofo Follo's Personal Website based on Angular",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "web",
+    "design",
+    "fun",
+    "learn",
+    "experience",
+    "passion"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.5.0",
+    "angular-bootstrap": "^1.2.1",
+    "angular": "^1.5.0"
+  }
+}
