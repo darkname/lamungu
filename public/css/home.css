@@ -74,6 +74,10 @@ a, a:hover {
 .valign h1 {
     font-size:50px;
 }
+.valign div {
+    margin-top: -25vh;
+}
 .valign a {
     font-size: 20px;
+    text-decoration:none;
 }
