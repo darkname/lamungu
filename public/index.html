@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
                 Lamungu
@@ -25,15 +25,15 @@
             <div class="col-xs-12 col-lg-offset-3 col-lg-6 text-center">
                 <h1>My Name Is Ben.</h1>
                 <h3>Guess you're here to know me more.</h3>
-                <a href="" class="btn btn-primary hero outline">Me</a>
-                <a href="" class="btn btn-primary hero outline">Work</a>
-                <a href="" class="btn btn-primary hero outline">Passions</a>
-                <a href="" class="btn btn-primary hero outline">You</a>
+                <a href="#me" class="btn btn-primary hero outline">Me</a>
+                <a href="#work" class="btn btn-primary hero outline">Work</a>
+                <!--<a href="" class="btn btn-primary hero outline">Passions</a>-->
+                <a href="#you" class="btn btn-primary hero outline">You</a>
             </div>
         </div>
     </div>
     <div class="divider"></div>
-    <div class="me-container flex">
+    <div id="me" class="me-container flex">
         <div class="valign">
             <div class="container">
                 <div class="col-xs-12 text-center">
@@ -49,7 +49,7 @@
         </div>
     </div>
     <div class="divider"></div>
-    <div class="work-container flex">
+    <div id="work" class="work-container flex">
         <div class="valign">
             <div class="container">
                 <div class="col-xs-12 text-center">
@@ -71,19 +71,27 @@
         </div>
     </div>
     <div class="divider"></div>
-    <div class="contact-container flex">
+    <div id="you" class="contact-container flex">
         <div class="valign">
             <div class="container">
                 <div class="container">
-                    <div class="col-xs-6 text-center">
+                    <div class="col-md-6 text-center">
                         <h1 class="">Get In Touch</h1>
                     </div>
-                    <div class="col-xs-6 text-center">
+                    <div class="col-md-6 text-center">
                         <h4>I can be found in many different networks. Find me on the ones you are interested.</h4>
-                        <a href="https://www.facebook.com/lamungu" class="btn btn-primary outline"><i class="fa fa-2x fa-facebook"></i></a>
-                        <a href="https://ca.linkedin.com/in/benjamin-lofo-06524643" class="btn btn-primary outline"><i class="fa fa-2x fa-linkedin"></i></a>
-                        <a href="https://twitter.com/lamungu" class="btn btn-primary outline"><i class="fa fa-2x fa-twitter"></i></a>
-                        <a href="https://github.com/lamungu" class="btn btn-primary outline"><i class="fa fa-2x fa-github"></i></a>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                        <a href="https://www.facebook.com/lamungu" class="social btn btn-primary outline"><i class="fa fa-2x fa-facebook"></i></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                        <a href="https://ca.linkedin.com/in/benjamin-lofo-06524643" class="social btn btn-primary outline"><i class="fa fa-2x fa-linkedin"></i></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                        <a href="https://twitter.com/lamungu" class="social btn btn-primary outline"><i class="fa fa-2x fa-twitter"></i></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                        <a href="https://github.com/lamungu" class="social btn btn-primary outline"><i class="fa fa-2x fa-github"></i></a>
+                        </div>
                     </div>
             </div>
         </div>
