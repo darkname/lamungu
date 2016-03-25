@@ -33,6 +33,8 @@
     "angular": "^1.5.0"
   },
   "devDependencies": {
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "ngSmoothScroll": "~2.0.0",
+    "angular-smoothscroll": "~1.1.1"
   }
 }
