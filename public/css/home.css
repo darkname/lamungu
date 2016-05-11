@@ -95,3 +95,25 @@ p {
 .valign h1 {
     font-size:50px;
 }
+
+.dimmer.on {
+    background: rgba(0,0,0,0.4);
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.dimmer {
+    background:rgba(0,0,0,0);
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.to-top {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+}
